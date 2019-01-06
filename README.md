@@ -17,33 +17,31 @@ $ git clone git@github.com:ucla-fa18-cs174a/a0-githubusername.git
 
 ### Step 2:  Now follow these steps to run and modify your project:  
 
-1. Go to your folder.  The easiest way is to right click the popup that downloaded it, then choose "Show in Folder".
-
    ![icons](docs/image-01.png)
 
-2. You should see the file index.html in your folder.  You can already try clicking that open to see the code run on your machine... mostly.  This is a start; you'll see an animation.  But this isn't good enough.  Your animation is still unable to load local files (texture images, sounds, models) out of your own file-system, due to its safety protections against your web browser.
+1. You should see the file index.html in your folder.  You can already try clicking that open to see the code run on your machine... mostly.  This is a start; you'll see an animation.  But this isn't good enough.  Your animation is still unable to load local files (texture images, sounds, models) out of your own file-system, due to its safety protections against your web browser.
 
    ![triangle](docs/image-02.png)
 
-3. Run a fake server. which lacks those security protections.  Do this by opening the file we gave you called "host" -  "host.bat" if you're Windows, "host.command" if your Mac. On Windows you can just double click the file open.
+2. Run a fake server. which lacks those security protections.  Do this by opening the file we gave you called "host" -  "host.bat" if you're Windows, "host.command" if your Mac. On Windows you can just double click the file open.
    * **On Mac, you might get a security warning instead if you double-click.**  Instead, right click the files, then choose Open, or you can go into System Preferences/Security & Prinvacy/General and click 'Open Anyway'. You may possibly need to check the file permissions and set them to 744.
 
    ![dialog](docs/image-03.png)
 
-4. Look in the resulting console window.  If you can't find a message starting with "Serving HTTP on ...", your operating system might not have come with Python; go download and install that first -- use Google for help on that, then try our files again.
+3. Look in the resulting console window.  If you can't find a message starting with "Serving HTTP on ..." (or if the window abruptly closes), your operating system might not have come with Python; go download and install that first -- use Google for help on that, then try our files again.  For Mac users, installing Python involves some usage of shell commands, unfortunately.
 
    ![http server](docs/image-04.png)
 
-5. Now you're hosting. Keep that window open.
+4. Now you're hosting. Keep that window open.
 
-6. Open a new window of Google Chrome.  Download it first if needed.
+5. Open a new window of Google Chrome.  Download it first if needed.
 
    ![url bar](docs/image-05.png)
 
-7. Navigate Chrome to the url http://localhost:8000/
+6. Navigate Chrome to the url http://localhost:8000/
 That assumes that step 5's message said port 8000 - otherwise change the number in the URL to match.
 
-8. Observe that your project shows up at this new URL.  That's where you'll access it from now on.
+7. Observe that your project shows up at this new URL.  That's where you'll access it from now on.
 
    ![triangle](docs/image-02.png)
 
@@ -54,17 +52,19 @@ Unfortunately, web developers in practice have to do that fake server thing pret
 
 1. Although any text editor will work on our files, for this class you'll need to use the editor inside of Chrome, because of its debugging tools.  
 
-2. Resume with the open Chrome window from the previous step 8.
+2. Resume with the open Chrome window from the previous step 7.
 
    ![triangle code](docs/image-06.png)
 
 3. Press F12 (Windows) or Cmd+Option+i (Mac) to open the Chrome developer tools panel (DevTools).
 
+  Note:  When you open Chrome DevTools, you might be greeted with an error about "fav.ico" not being found.  That's ok, you didn't mess up, we just omitted that file for simplicity.
+
 4. You want DevTools to be able to take up the whole screen.  Undock it from your web page window.  Do this by clicking the ellipsis at the upper right corner, and selecting the first choice under "Dock Side".
 
    ![triangle code 2](docs/image-07.png)
 
-5. Maximize both your web page window and DevTools windows.  Use the keyboard shortcut Alt+tab (Windows) or three finger swipe (Mac) to switch between them quickly.
+5. Maximize both your web page window and DevTools windows.  Use the keyboard shortcut Alt+tab (Windows) or Cmd+~ (Mac) to switch between them quickly.
 
 6. Click the "Sources" tab of the DevTools panel, towards the top of the screen.
 
