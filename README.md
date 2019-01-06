@@ -24,7 +24,7 @@ $ git clone git@github.com:ucla-fa18-cs174a/a0-githubusername.git
    ![triangle](docs/image-02.png)
 
 2. Run a fake server. which lacks those security protections.  Do this by opening the file we gave you called "host" -  "host.bat" if you're Windows, "host.command" if your Mac. On Windows you can just double click the file open.
-   * **On Mac, you might get a security warning instead if you double-click.**  Instead, right click the files, then choose Open, or you can go into System Preferences/Security & Prinvacy/General and click 'Open Anyway'. You may possibly need to check the file permissions and set them to 744.
+   * **On Mac, you might get a security warning instead if you double-click.**  Instead, right click the files, then choose Open, or you can go into System Preferences/Security & Privacy/General and click 'Open Anyway'. You may possibly need to check the file permissions and set them to 744.
 
    ![dialog](docs/image-03.png)
 
